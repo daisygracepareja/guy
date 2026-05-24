@@ -13,7 +13,7 @@ export default {
   async execute(interaction, config, client) {
     try {
       const result = Math.random() < 0.5 ? "Heads" : "Tails";
-      const emoji = result === "Heads" ? "🪙" : "🪙";
+      const emoji = result === "Heads" ? "🪙" : "🔮";
 
       const embed = successEmbed(
         "heads or tails",
