@@ -8,7 +8,7 @@ import { InteractionHelper } from '../../utils/interactionHelper.js';
 export default {
     data: new SlashCommandBuilder()
     .setName("wanted")
-    .setDescription("Create a WANTED poster for a user.")
+    .setDescription("create a victim of WANTED poster for a user.")
     .addUserOption((option) =>
       option
         .setName("user")
@@ -18,7 +18,7 @@ export default {
     .addStringOption((option) =>
       option
         .setName("crime")
-        .setDescription("The crime they committed.")
+        .setDescription("What crime did they commited")
         .setRequired(false)
         .setMaxLength(100),
     ),
@@ -56,7 +56,7 @@ export default {
 
       const embed = createEmbed({
         color: 'primary',
-        title: '💥 BIG BOUNTY: WANTED! 💥',
+        title: '💥 HUGE BOUNTY: WANTED! 💥',
         description: `**CRIMINAL:** ${targetUser.tag}\n**CRIME:** ${crime}`,
         fields: [
           {
