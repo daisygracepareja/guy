@@ -6,7 +6,8 @@ import { handleInteractionError, TitanBotError, ErrorTypes } from '../../utils/e
 import { InteractionHelper } from '../../utils/interactionHelper.js';
 const facts = [
   "A day on Venus is longer than a year on Venus.",
-  "A guy named Cornelios made this bot.",
+  "Chernobyl reactors exploded in 1:23:45.",
+  "A funni guy named Cornelios made this bot.",
   "The shortest war in history was between Britain and Zanzibar on August 27, 1896. It lasted 38 to 45 minutes.",
   "The word 'Strengths' is the longest word in the English language with only one vowel.",
   "Octopuses have three hearts and blue blood.",
