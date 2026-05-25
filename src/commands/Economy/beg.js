@@ -68,7 +68,7 @@ export default {
                     `You spotted an unattended wallet! You grab **$${amountWon.toLocaleString()}** and run.`,
                     `Someone took pity on you and gave you **$${amountWon.toLocaleString()}**!`,
                     `You found **$${amountWon.toLocaleString()}** under a park bench.`,
-                    `The bot give you **$${amountWon.ToLocaleString()}**.`
+                    `The bot give you **$${amountWon.ToLocaleString()}**.`,
                 ];
 
                 replyEmbed = MessageTemplates.SUCCESS.DATA_UPDATED(
